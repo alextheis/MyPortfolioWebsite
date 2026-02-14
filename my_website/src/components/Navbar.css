@@ -1,0 +1,29 @@
+.navbar nav ul {
+  display: flex;             /* This aligns the <li> items horizontally */
+  list-style-type: none;     /* Removes the bullet points */
+  margin: 0;
+  padding: 0;
+  gap: 2rem;                 /* Adds space between Home, Projects, etc. */
+  justify-content: center;    /* Centers the links in the middle of the bar */
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 1rem 0;
+  position: fixed;           /* Keeps navbar at the top when you scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;     /* Removes the underline */
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #636cff;            /* OSU Scarlet on hover */
+}

@@ -1,0 +1,5 @@
+.hero-text {
+flex: 1;             /* Takes 1 share of space */
+  text-align: right;   /* Pushes text towards the image */
+  padding-right: 40px; /* Adds a buffer so text doesn't touch the image */
+}

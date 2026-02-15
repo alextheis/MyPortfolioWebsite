@@ -1,15 +1,14 @@
 .profile-img {
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  
   object-fit: cover;
-  display: block;
-  /* NO MARGINS HERE - Let Flexbox handle the spacing */
-  box-shadow: 0 0 20px rgba(186, 12, 47, 0.3); /* Optional: OSU Scarlet glow */
+  
+  
 }
 
 .me-content {
   flex: 1;
   display: flex;
-  justify-content: flex-start; /* Image starts at the center and grows right */
+  
 }

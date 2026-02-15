@@ -1,4 +1,4 @@
-import profilePic from '../assets/pic_of_me.png';
+import profilePic from '../assets/alex.png';
 import './Me.css'
 const Me = () => {
   return (

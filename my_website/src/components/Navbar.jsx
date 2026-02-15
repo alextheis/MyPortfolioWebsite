@@ -9,7 +9,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="navbar">
+    <div className="navbar glass-panel">
       <nav>
         <ul>
           <li><a href="#hero">Home</a></li>
